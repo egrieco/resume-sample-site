@@ -7,6 +7,14 @@ body {
   align-items: flex-start;
 }
 
+div#left-column {
+  flex: 1 1 400px;
+}
+
+div#right-column {
+  flex: 1 1 600px;
+}
+
 h1,
 h2,
 h3 {
