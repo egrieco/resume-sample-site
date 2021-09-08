@@ -12,12 +12,14 @@ body {
 div#left-column {
   flex: 1 1 400px;
   padding: 1em;
+  line-height: 1.5em;
 }
 
 div#right-column {
   border-left: black solid 1px;
   flex: 1 1 600px;
   padding: 1em;
+  line-height: 1.2em;
 }
 #initials,
 h1,
@@ -43,11 +45,17 @@ h2 {
   font-family: sans-serif;
   font-size: 4em;
   margin-bottom: 2rem;
-  padding: 1rem;
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 0.75em;
 }
 
 #job-title {
+  font-family: sans-serif;
   text-align: center;
+  font-size: large;
 }
 
 p {
